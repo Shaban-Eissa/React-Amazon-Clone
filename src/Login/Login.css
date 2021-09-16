@@ -4,13 +4,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url('https://content.fortune.com/wp-content/uploads/2016/05/amazon2.jpg')
+    no-repeat  ;
+    background-size: cover;
+
 }
 
 .login__logo {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     object-fit: contain;
-    width: 100px;
+    width: 150px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -23,6 +27,8 @@
     border-radius: 5px;
     border: 1px solid lightgray;
     padding: 20px;
+    background-color: white;
+    margin-top: 65px;
 }
 
 .login__container > h1 {

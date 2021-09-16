@@ -1,0 +1,40 @@
+[debug] [2021-09-16T01:21:33.685Z] ----------------------------------------------------------------------
+[debug] [2021-09-16T01:21:33.688Z] Command:       E:\Jetbrains\WebStorm IDEA 2020.1.4\Node Js\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-09-16T01:21:33.689Z] CLI Version:   9.18.0
+[debug] [2021-09-16T01:21:33.689Z] Platform:      win32
+[debug] [2021-09-16T01:21:33.689Z] Node Version:  v14.13.1
+[debug] [2021-09-16T01:21:33.690Z] Time:          Thu Sep 16 2021 03:21:33 GMT+0200 (Eastern European Standard Time)
+[debug] [2021-09-16T01:21:33.691Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-16T01:21:33.784Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-16T01:21:33.784Z] > authorizing via signed-in user (shabaneissa767@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project clone-c881a. This may result in unexpected behavior. 
+[debug] [2021-09-16T01:21:33.821Z] [hub] writing locator at C:\Users\Lenovo\AppData\Local\Temp\hub-clone-c881a.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@14 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@14 from host."}}
+[debug] [2021-09-16T01:21:34.339Z] defaultcredentials: writing to file C:\Users\Lenovo\AppData\Roaming\firebase\shabaneissa767_gmail_com_application_default_credentials.json
+[debug] [2021-09-16T01:21:34.344Z] Setting GAC to C:\Users\Lenovo\AppData\Roaming\firebase\shabaneissa767_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Lenovo\\AppData\\Roaming\\firebase\\shabaneissa767_gmail_com_application_default_credentials.json"}}
+[debug] [2021-09-16T01:21:34.348Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-c881a/adminSdkConfig [none]
+[debug] [2021-09-16T01:21:35.444Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-c881a/adminSdkConfig 200
+[debug] [2021-09-16T01:21:35.444Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-c881a/adminSdkConfig {"projectId":"clone-c881a","storageBucket":"clone-c881a.appspot.com","locationId":"us-central"}
+[debug] [2021-09-16T01:21:35.484Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-c881a/sites 
+[debug] [2021-09-16T01:21:37.128Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-c881a/sites 200
+[debug] [2021-09-16T01:21:37.128Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/clone-c881a/sites {"sites":[{"name":"projects/1036648517972/sites/clone-c881a","defaultUrl":"https://clone-c881a.web.app","appId":"1:1036648517972:web:2d934bb23b6522d6edf8c1","type":"DEFAULT_SITE"}]}
+[debug] [2021-09-16T01:21:37.128Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-c881a/webApps/1:1036648517972:web:2d934bb23b6522d6edf8c1/config [none]
+[debug] [2021-09-16T01:21:39.950Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-c881a/webApps/1:1036648517972:web:2d934bb23b6522d6edf8c1/config 200
+[debug] [2021-09-16T01:21:39.950Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-c881a/webApps/1:1036648517972:web:2d934bb23b6522d6edf8c1/config {"projectId":"clone-c881a","appId":"1:1036648517972:web:2d934bb23b6522d6edf8c1","storageBucket":"clone-c881a.appspot.com","locationId":"us-central","apiKey":"AIzaSyBsx4jd0belPZiW3YInAMz1wrq_PzjRj-I","authDomain":"clone-c881a.firebaseapp.com","messagingSenderId":"1036648517972"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2021-09-16T01:21:40.083Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-09-16T01:21:40.084Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-09-16T01:21:40.084Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Lenovo\\.cache\\firebase\\emulators\\ui-v1.6.3\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Lenovo\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.3\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2021-09-16T01:21:40.318Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "E:\Front Web\React\Projects\Amazon\amazon\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"E:\\Front Web\\React\\Projects\\Amazon\\amazon\\functions\" for Cloud Functions..."}}
+[debug] [2021-09-16T01:21:40.379Z] [worker-pool] addWorker(~diagnostic~) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(~diagnostic~)"}}
+[debug] [2021-09-16T01:21:40.379Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key ~diagnostic~, total=1"}}
+[debug] [2021-09-16T01:21:40.379Z] [worker-pool] submitWork(triggerId=) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=)"}}
+[debug] [2021-09-16T01:21:40.380Z] [worker-~diagnostic~-a6af73a8-d52a-4780-9bce-bb74af3b2d34]: Assigning socketPath: \\?\pipe\E:\Front Web\React\Projects\Amazon\amazon\functions\30936 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-a6af73a8-d52a-4780-9bce-bb74af3b2d34]: Assigning socketPath: \\\\?\\pipe\\E:\\Front Web\\React\\Projects\\Amazon\\amazon\\functions\\30936"}}
+[debug] [2021-09-16T01:21:40.381Z] [worker-~diagnostic~-a6af73a8-d52a-4780-9bce-bb74af3b2d34]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-~diagnostic~-a6af73a8-d52a-4780-9bce-bb74af3b2d34]: BUSY"}}

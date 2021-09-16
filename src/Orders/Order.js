@@ -2,7 +2,7 @@ import React from "react";
 import "./Order.css";
 import moment from "moment";
 import CurrencyFormat from "react-currency-format";
-import CheckoutProduct from "./CheckoutProduct";
+import CheckoutProduct from "../Checkout/CheckoutProduct";
 function Order({ order }) {
   return (
     <div className="order">

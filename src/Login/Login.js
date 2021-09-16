@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
 import { Link , useHistory} from "react-router-dom";
-import {auth} from './firebase'
+import {auth} from '../Firebase/firebase'
 
 
 function Login() {
@@ -36,7 +36,7 @@ function Login() {
       <Link to="/">
         <img
           alt=""
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+          // src="https://www.pentalic.com/wp-content/uploads/2018/12/Amazon-logo-white-small.png"
           className="login__logo"
         />
       </Link>
