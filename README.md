@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+to run projct open two terminals one to start app and other to start api :
+
+1- write in first terminal >> npm start ,
+2- write in second terminal >> firebase emulators:start 
+
 In the project directory, you can run:
 
 ### `npm start`
