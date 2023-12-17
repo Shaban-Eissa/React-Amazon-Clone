@@ -63,6 +63,7 @@ This project is a clone of the popular e-commerce platform Amazon, created using
     * Set up authentication.
     * Obtain your Firebase configuration and replace it in `src/Firebase/firebase.js`.
     * Install Firebase CLI by running the following command in your terminal: `npm install -g firebase-tools`.
+    * Authenticate to Firebase using your Google account by running: `firebase login`.
 
 5. Open terminal to start firebase cloud functions:
     ```bash
